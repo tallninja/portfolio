@@ -1,3 +1,9 @@
+import { Hero } from '../../components';
+
 export const Home = () => {
-	return <h1>Home Page</h1>;
+	return (
+		<main className='mb-auto'>
+			<Hero />
+		</main>
+	);
 };
