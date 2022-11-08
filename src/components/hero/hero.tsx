@@ -5,7 +5,7 @@ export const Hero = () => {
 		<div className='divide-y'>
 			<div className='pt-6 pb-4 sm:pb-2 space-y-2 md:space-y-5'>
 				<h1 className='font-extrabold leading-9 tracking-wide text-white-900 sm:text-4xl sm:leading-1 md:text-6xl md:leading-14'>
-					Ernest Wambua 👾
+					Ernest Wambua &#128119;&#127998;
 				</h1>
 			</div>
 			<div className='items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0'>
