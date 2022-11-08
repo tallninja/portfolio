@@ -10,6 +10,8 @@ const root = ReactDOM.createRoot(
 
 root.render(
 	<React.StrictMode>
-		<App />
+		<div className='antialiased bg-white text-black dark:bg-black dark:text-white h-screen font-mono'>
+			<App />
+		</div>
 	</React.StrictMode>
 );

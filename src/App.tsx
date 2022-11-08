@@ -5,7 +5,7 @@ import { Blogs, Home, PageNotFound, Projects } from './pages';
 export const App = () => {
 	return (
 		<BrowserRouter>
-			<div className='antialiased bg-white text-black dark:bg-black dark:text-white h-screen'>
+			<div className='max-w-3xl px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0'>
 				<Navbar />
 				<Routes>
 					<Route path='/'>
