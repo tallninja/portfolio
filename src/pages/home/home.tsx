@@ -7,7 +7,7 @@ import {
 
 export const Home = () => {
 	return (
-		<main className='mb-auto'>
+		<>
 			<Hero />
 			<div className='pb-16'>
 				<div className='mb-20'>
@@ -16,6 +16,6 @@ export const Home = () => {
 				</div>
 				<FeaturedProjects />
 			</div>
-		</main>
+		</>
 	);
 };
