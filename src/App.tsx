@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Blogs, PageNotFound, Projects } from './pages';
-import { Home } from './pages';
+import { Blogs, Home, PageNotFound, Projects } from './pages';
 
 export const App = () => {
 	return (
