@@ -15,7 +15,7 @@ export const App = () => {
 
 	const particlesLoaded = useCallback(
 		async (container: Container | undefined) => {
-			await console.log(container);
+			console.log(container);
 		},
 		[]
 	);
@@ -25,10 +25,9 @@ export const App = () => {
 			<div className='max-w-3xl px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0'>
 				<Particles
 					id='tsparticles'
-					url={`${process.env.PUBLIC_URL}/particles.json`}
+					url='https://raw.githubusercontent.com/tallninja/portfolio/master/public/particles.json?token=GHSAT0AAAAAABT4MTMXX4VATHYJJ73ZHNFGY3KKBOQ'
 					init={particlesInit}
 					loaded={particlesLoaded}
-					className='min-h-full h-full w-full -z-10 overflow-hidden fixed top-0 left-0 bg-white dark:bg-black'
 				/>
 				<Navbar />
 				<Routes>
