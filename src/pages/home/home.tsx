@@ -4,8 +4,10 @@ export const Home = () => {
 	return (
 		<main className='mb-auto'>
 			<Hero />
-			<WorkExperience />
-			<Education />
+			<div className='pb-16'>
+				<WorkExperience />
+				<Education />
+			</div>
 		</main>
 	);
 };

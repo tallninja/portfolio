@@ -13,8 +13,7 @@ export const School: React.FC<SchoolProps> = (props) => {
 				<div>
 					<h3 className='text-2xl font-bold leading-8 tracking-tight'>
 						<a className='text-gray-900 dark:text-gray-100'>
-							{props.course}
-							{props.school}
+							{props.course}: {props.school}
 						</a>
 					</h3>
 					<div className='flex flex-wrap'>

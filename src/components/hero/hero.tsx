@@ -35,11 +35,11 @@ export const Hero = () => {
 						Open To Work &#128515;
 					</div>
 					<div className='flex pt-6 space-x-3'>
-						<i className='fa fa-envelope text-gray-200 text-xl dark:text-gray-400 hover:text-black hover:dark:text-white'></i>
-						<i className='fa-brands fa-github text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white'></i>
-						<i className='fa-brands fa-twitter text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white'></i>
-						<i className='fa-brands fa-linkedin text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white'></i>
-						<i className='fa-brands fa-stack-overflow text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white'></i>
+						<i className='fa fa-envelope text-gray-200 text-xl dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
+						<i className='fa-brands fa-github text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
+						<i className='fa-brands fa-twitter text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
+						<i className='fa-brands fa-linkedin text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
+						<i className='fa-brands fa-stack-overflow text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
 					</div>
 				</div>
 				<div className='pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2'>
@@ -56,7 +56,10 @@ export const Hero = () => {
 						blandit mi, a ullamcorper ante facilisis vel. Ut eu erat et massa
 						vulputate vestibulum at eget augue.
 					</p>
-					<p>Per Aspera Ad Astra &#128640;</p>
+					<p className='font-bold text-xl'>
+						<span className='italic'>&#8220; Per Aspera Ad Astra &#8221;</span>{' '}
+						&#128640;
+					</p>
 				</div>
 			</div>
 		</div>
