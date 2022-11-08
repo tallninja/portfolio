@@ -1,3 +1,3 @@
 export * from './navbar';
 export * from './hero';
-export * from './experience';
+export * from './work-experience';

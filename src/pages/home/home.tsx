@@ -1,10 +1,10 @@
-import { Experience, Hero } from '../../components';
+import { WorkExperience, Hero } from '../../components';
 
 export const Home = () => {
 	return (
 		<main className='mb-auto'>
 			<Hero />
-			<Experience />
+			<WorkExperience />
 		</main>
 	);
 };

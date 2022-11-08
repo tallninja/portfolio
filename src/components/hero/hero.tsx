@@ -47,7 +47,7 @@ export const Hero = () => {
 						<span className='text-yellow-400 font-bold'>Hooray!!!</span> you
 						made it to my portfolio website!
 					</p>
-					<p>
+					<p className='text-justify'>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
 						turpis sed dolor luctus egestas id at urna. Phasellus quis diam in
 						urna luctus sollicitudin. In sed nunc non risus consequat feugiat.
