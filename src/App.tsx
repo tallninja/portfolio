@@ -25,7 +25,7 @@ export const App = () => {
 			<div className='max-w-3xl px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0'>
 				<Particles
 					id='tsparticles'
-					url='https://raw.githubusercontent.com/matteobruni/tsparticles/main/websites/particles.js.org/presets/star.json'
+					url='https://github.com/tallninja/portfolio/blob/master/public/particles2.json'
 					init={particlesInit}
 					loaded={particlesLoaded}
 				/>
