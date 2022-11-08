@@ -19,8 +19,7 @@ export const Navbar = () => {
 			<div>
 				<FontAwesomeIcon
 					icon={faMeteor}
-					color='white'
-					className='text-black dark:text-white text-5xl'
+					className='text-black dark:text-white text-5xl hover:text-yellow-400'
 				/>
 			</div>
 			<div className='flex flex-row items-center text-base leading-5'>
