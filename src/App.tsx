@@ -9,13 +9,12 @@ import type { Container, Engine } from 'tsparticles-engine';
 
 export const App = () => {
 	const particlesInit = useCallback(async (engine: Engine) => {
-		console.log(engine);
 		await loadFull(engine);
 	}, []);
 
 	const particlesLoaded = useCallback(
 		async (container: Container | undefined) => {
-			console.log(container);
+			// console.log(container);
 		},
 		[]
 	);

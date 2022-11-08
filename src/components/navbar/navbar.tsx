@@ -16,11 +16,14 @@ export const Navbar = () => {
 
 	return (
 		<header className='flex items-center justify-between py-10'>
-			<div>
+			<div className='flex items-center justify-between'>
 				<FontAwesomeIcon
 					icon={faMeteor}
-					className='text-black dark:text-white text-5xl hover:text-yellow-400'
+					className='text-black dark:text-white mr-3 text-5xl hover:text-yellow-400'
 				/>
+				<div className='hidden h-6 text-xl font-semibold sm:block'>
+					Ernest Wambua
+				</div>
 			</div>
 			<div className='flex flex-row items-center text-base leading-5'>
 				<div className='hidden sm:block'>
