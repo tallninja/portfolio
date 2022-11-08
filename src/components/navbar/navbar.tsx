@@ -1,4 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faMeteor } from '@fortawesome/free-solid-svg-icons';
 
 export const Navbar = () => {
 	const [nav, setNav] = useState<boolean>(false);
@@ -13,7 +16,13 @@ export const Navbar = () => {
 
 	return (
 		<header className='flex items-center justify-between py-10'>
-			<div>Logo</div>
+			<div>
+				<FontAwesomeIcon
+					icon={faMeteor}
+					color='white'
+					className='text-black dark:text-white text-5xl'
+				/>
+			</div>
 			<div className='flex flex-row items-center text-base leading-5'>
 				<div className='hidden sm:block'>
 					<a className='p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100'>
