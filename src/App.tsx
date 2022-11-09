@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Navbar } from './components';
+import { Footer, Navbar } from './components';
 import { Blogs, Home, PageNotFound, Projects } from './pages';
 
 import { useCallback } from 'react';
@@ -43,6 +43,7 @@ export const App = () => {
 							options={particlesConfig}
 						/>
 					</main>
+					<Footer />
 				</div>
 			</div>
 		</BrowserRouter>
