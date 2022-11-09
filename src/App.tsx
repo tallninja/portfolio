@@ -23,29 +23,20 @@ export const App = () => {
 	console.log(particlesConfig);
 
 	return (
-		<BrowserRouter>
-			<div className='max-w-3xl px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0'>
-				<div className='flex flex-col justify-between h-screen'>
-					<Navbar />
-					<main className='mb-auto'>
-						<Routes>
-							<Route path='/'>
-								<Route index element={<Home />} />
-								<Route path='blogs' element={<Blogs />} />
-								<Route path='projects' element={<Projects />} />
-							</Route>
-							<Route path='*' element={<PageNotFound />} />
-						</Routes>
-						<Particles
-							id='tsparticles'
-							init={particlesInit}
-							loaded={particlesLoaded}
-							options={particlesConfig}
-						/>
-					</main>
-					<Footer />
-				</div>
+		<div className='max-w-3xl px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0'>
+			<div className='flex flex-col justify-between h-screen'>
+				<Navbar />
+				<main className='mb-auto'>
+					<Home />
+					<Particles
+						id='tsparticles'
+						init={particlesInit}
+						loaded={particlesLoaded}
+						options={particlesConfig}
+					/>
+				</main>
+				<Footer />
 			</div>
-		</BrowserRouter>
+		</div>
 	);
 };
