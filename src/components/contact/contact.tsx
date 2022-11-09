@@ -9,6 +9,7 @@ export const Contact = () => {
 	const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 		console.log({ email, subject, content });
+		alert('Thank you for reaching out...😊');
 	};
 
 	return (
@@ -19,9 +20,6 @@ export const Contact = () => {
 				</h2>
 				<hr />
 				<div className='mt-4'>
-					<div className='pb-1 text-lg font-semibold text-gray-800 dark:text-gray-100'>
-						Send me a message
-					</div>
 					<form className='flex flex-col' onSubmit={onSubmit}>
 						<div>
 							<label htmlFor='email-input'>Email</label>
