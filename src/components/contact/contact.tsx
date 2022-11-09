@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 
+const FORM_ENDPOINT =
+	'https://public.herotofu.com/v1/a42582c0-6008-11ed-b82c-5d75eaa7ccff';
+
 export const Contact = () => {
 	const [email, setEmail] = useState<string>();
 	const [subject, setSubject] = useState<string>();
 	const [content, setContent] = useState<string>();
+	const [submitted, setSubmitted] = useState<boolean>(false);
 
-	const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-		e.preventDefault();
-		console.log({ email, subject, content });
-		alert('Thank you for reaching out...😊');
+	const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+		setInterval(() => {
+			setSubmitted(true);
+		}, 200);
 	};
 
 	return (
@@ -19,48 +23,58 @@ export const Contact = () => {
 				</h2>
 				<hr />
 				<div className='mt-4'>
-					<form className='flex flex-col' onSubmit={onSubmit}>
-						<div>
-							<label htmlFor='email-input'>Email</label>
-							<input
-								type='email'
-								name='email'
-								id='email-input'
-								className='mt-2 px-5 py-3 border-2 border-gray-600 dark:border-gray-400 rounded-md w-full dark:bg-black focus:outline-none focus:ring-2 focus:border-transparent focus:ring-yellow-400'
-								placeholder='email@example.com'
-								onChange={(e) => setEmail(e.target.value)}
-							/>
-						</div>
-						<div className='mt-4'>
-							<label htmlFor='subject-input'>Subject</label>
-							<input
-								type='text'
-								name='subject'
-								id='subject-input'
-								className='mt-2 px-5 py-3 border-2 border-gray-600 dark:border-gray-400 rounded-md w-full dark:bg-black focus:outline-none focus:ring-2 focus:border-transparent focus:ring-yellow-400'
-								placeholder='Subject'
-								onChange={(e) => setSubject(e.target.value)}
-							/>
-						</div>
-						<div className='mt-4'>
-							<label htmlFor='content-textarea'>Content</label>
-							<textarea
-								name='content'
-								id='content-text-area'
-								className='mt-2 px-5 py-3 border-2 border-gray-600 dark:border-gray-400 rounded-md w-full dark:bg-black focus:outline-none focus:ring-2 focus:border-transparent focus:ring-yellow-400'
-								placeholder='Reaching out for new opportunities'
-								onChange={(e) => setContent(e.target.value)}
-							/>
-						</div>
-						<div className='mt-4'>
-							<button
-								type='submit'
-								className='w-full px-5 py-3 bg-yellow-300 hover:bg-yellow-400 rounded-md font-extrabold'
-							>
-								<i className='fa-solid fa-paper-plane text-3xl'></i>
-							</button>
-						</div>
-					</form>
+					{!submitted ? (
+						<form
+							className='flex flex-col'
+							method='POST'
+							action={FORM_ENDPOINT}
+							target='_blank'
+							onSubmit={onSubmit}
+						>
+							<div>
+								<label htmlFor='email-input'>Your Name</label>
+								<input
+									type='text'
+									name='name'
+									id='name-input'
+									className='mt-2 px-5 py-3 border-2 border-gray-600 dark:border-gray-400 rounded-md w-full dark:bg-black focus:outline-none focus:ring-2 focus:border-transparent focus:ring-yellow-400'
+									placeholder='John Doe'
+									required
+								/>
+							</div>
+							<div className='mt-4'>
+								<label htmlFor='email-input'>Your Email</label>
+								<input
+									type='email'
+									name='email'
+									id='email-input'
+									className='mt-2 px-5 py-3 border-2 border-gray-600 dark:border-gray-400 rounded-md w-full dark:bg-black focus:outline-none focus:ring-2 focus:border-transparent focus:ring-yellow-400'
+									placeholder='email@example.com'
+								/>
+							</div>
+							<div className='mt-4'>
+								<label htmlFor='message-textarea'>Message</label>
+								<textarea
+									name='Message'
+									id='message-textarea'
+									className='mt-2 px-5 py-3 border-2 border-gray-600 dark:border-gray-400 rounded-md w-full dark:bg-black focus:outline-none focus:ring-2 focus:border-transparent focus:ring-yellow-400'
+									placeholder='Reaching out for new opportunities'
+								/>
+							</div>
+							<div className='mt-4'>
+								<button
+									type='submit'
+									className='w-full px-5 py-3 bg-yellow-300 hover:bg-yellow-400 rounded-md font-extrabold'
+								>
+									<i className='fa-solid fa-paper-plane text-3xl'></i>
+								</button>
+							</div>
+						</form>
+					) : (
+						<h1 className='font-extrabold leading-9 tracking-tight text-4xl my-5'>
+							Thank You For Reaching Out 😊
+						</h1>
+					)}
 				</div>
 			</div>
 		</div>
