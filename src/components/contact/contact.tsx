@@ -1,5 +1,4 @@
-import React, { FormEventHandler, useState } from 'react';
-import { ClickEvent } from 'tsparticles-engine';
+import React, { useState } from 'react';
 
 export const Contact = () => {
 	const [email, setEmail] = useState<string>();

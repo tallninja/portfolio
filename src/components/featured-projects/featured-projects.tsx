@@ -7,7 +7,10 @@ export const FeaturedProjects = () => {
 				<h2 className='font-extrabold leading-6 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-8 md:text-4xl md:leading-10'>
 					Featured Projects 🏗
 				</h2>
-				<a className='text-base font-medium leading-6 text-yellow-500 hover:text-yellow-600 dark:hover:text-yellow-400'>
+				<a
+					href='https://github.com/tallninja'
+					className='text-base font-medium leading-6 text-yellow-500 hover:text-yellow-600 dark:hover:text-yellow-400'
+				>
 					All projects →
 				</a>
 			</div>

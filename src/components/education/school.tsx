@@ -12,9 +12,9 @@ export const School: React.FC<SchoolProps> = (props) => {
 			<div className='space-y-3 xl:col-span-3'>
 				<div>
 					<h3 className='text-2xl font-bold leading-8 tracking-tight'>
-						<a className='text-gray-900 dark:text-gray-100'>
+						<p className='text-gray-900 dark:text-gray-100'>
 							{props.course}: {props.school}
-						</a>
+						</p>
 					</h3>
 					<div className='flex flex-wrap'>
 						<p className='text-base font-medium leading-6 text-gray-500 dark:text-gray-400'>

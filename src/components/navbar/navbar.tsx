@@ -7,12 +7,10 @@ export const Navbar = () => {
 	const [nav, setNav] = useState<boolean>(false);
 
 	const ham =
-		'M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1\
-	     1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z';
+		'M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z';
 
 	const cross =
-		'M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414\
-	     10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z';
+		'M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z';
 
 	return (
 		<header className='flex items-center justify-between py-10'>
@@ -27,16 +25,28 @@ export const Navbar = () => {
 			</div>
 			<div className='flex flex-row items-center text-base leading-5'>
 				<div className='hidden sm:block'>
-					<a className='p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100'>
+					<a
+						href='/'
+						className='p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100'
+					>
 						Home
 					</a>
-					<a className='p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100'>
+					<a
+						href='https://medium.com/@ernestwambua'
+						className='p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100'
+					>
 						Blogs
 					</a>
-					<a className='p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100'>
+					<a
+						href='https://github.com/tallninja'
+						className='p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100'
+					>
 						Projects
 					</a>
-					<a className='p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100'>
+					<a
+						href='/'
+						className='p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100'
+					>
 						Contact
 					</a>
 				</div>
@@ -72,22 +82,34 @@ export const Navbar = () => {
 						></button>
 						<nav className='fixed h-full w-full mt-8 flex flex-col align-center'>
 							<div className='px-12 py-4 flex justify-center'>
-								<a className='text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100'>
+								<a
+									href='/'
+									className='text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100'
+								>
 									Home
 								</a>
 							</div>
 							<div className='px-12 py-4 flex justify-center'>
-								<a className='text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100'>
+								<a
+									href='https://medium.com/@ernestwambua'
+									className='text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100'
+								>
 									Blogs
 								</a>
 							</div>
 							<div className='px-12 py-4 flex justify-center'>
-								<a className='text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100'>
+								<a
+									href='https://github.com/tallninja'
+									className='text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100'
+								>
 									Projects
 								</a>
 							</div>
 							<div className='px-12 py-4 flex justify-center'>
-								<a className='text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100'>
+								<a
+									href='/'
+									className='text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100'
+								>
 									Contact
 								</a>
 							</div>
