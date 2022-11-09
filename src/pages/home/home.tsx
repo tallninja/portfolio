@@ -4,6 +4,7 @@ import {
 	Education,
 	FeaturedProjects,
 	Contact,
+	TechStack,
 } from '../../components';
 
 export const Home = () => {
@@ -16,6 +17,7 @@ export const Home = () => {
 					<Education />
 				</div>
 				<FeaturedProjects />
+				<TechStack />
 				<Contact />
 			</div>
 		</>
