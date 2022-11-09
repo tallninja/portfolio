@@ -4,7 +4,7 @@ export const Hero = () => {
 	return (
 		<div className='divide-y'>
 			<div className='pt-6 pb-4 sm:pb-2 space-y-2 md:space-y-5'>
-				<h1 className='font-extrabold leading-9 tracking-wide text-white-900 sm:text-4xl sm:leading-1 md:text-6xl md:leading-14'>
+				<h1 className='font-extrabold leading-9 tracking-wide text-white-900 sm:text-4xl sm:leading-9 md:text-6xl text-4xl'>
 					Ernest Wambua &#128119;&#127998;
 				</h1>
 			</div>
