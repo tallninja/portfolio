@@ -18,26 +18,25 @@ export const FeaturedProjects = () => {
 			<div className='container py-6'>
 				<div className='flex flex-wrap -m-4'>
 					<Card
-						image={`${process.env.PUBLIC_URL}/img/test.png`}
-						title='JScode'
-						body='Lorem ipsum dolor sit amet, consectetur
-						adipiscing elit. Nulla id dolor orci. Donec quis tincidunt lacus.
-						Sed ut auctor lacus, eu pellentesque neque. Aenean sit amet tortor
-						vel ipsum tempus gravida. Nam sed ligula eget libero cursus
-						vulputate. Nullam ornare augue ac ligula imperdiet semper vel ut
-						justo. Proin nec magna semper est vulputate fringilla sed sed
-						massa.'
+						image={`${process.env.PUBLIC_URL}/img/tusafiri.png`}
+						title='Tusafiri'
+						body='This is a web based bus booking system which i created using MERN stack.
+						A user is able to book a bus seat and select the desired seat and still get to
+						pay for the seats all from the comfort of their home. The need for such a system
+						arose from the chaotic state of buses popularly known as "matatus" here in Kenya.
+						This system will ensure that a user gets what they paid for. This system can also help
+						bus companies when they want to assign drivers to buses. The system automatically does
+						that based on previous trips the driver has made.'
 					/>
 					<Card
-						image={`${process.env.PUBLIC_URL}/img/test.png`}
+						image={`${process.env.PUBLIC_URL}/img/jscode.png`}
 						title='JScode'
-						body='Lorem ipsum dolor sit amet, consectetur
-						adipiscing elit. Nulla id dolor orci. Donec quis tincidunt lacus.
-						Sed ut auctor lacus, eu pellentesque neque. Aenean sit amet tortor
-						vel ipsum tempus gravida. Nam sed ligula eget libero cursus
-						vulputate. Nullam ornare augue ac ligula imperdiet semper vel ut
-						justo. Proin nec magna semper est vulputate fringilla sed sed
-						massa.'
+						body='JScode is a web based JavaScript code transpiler. The motivation for the project
+						arose from the desire to have a "Jupyter Notebook" but for JS developers. I worked on if
+						for a whole weekend and I was able to come up with a prety descent implementation. A user
+						can insers code cells or text cells and they can easily document their code as they are writing
+						it. You can even import any package and it will automatically fetch it from the NPM registry
+						and bundle your code. The tech stack used was ReactJS, Typescript, esbuild and Jest.'
 					/>
 				</div>
 			</div>

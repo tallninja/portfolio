@@ -16,7 +16,7 @@ export const WorkExperience = () => {
 							from='Sep, 2022'
 							to='Present'
 							description='Mainly tasked with verifying documentation of the media wiki platform
-							and designing web based animation engine using WebGL and Web assembly.'
+							and designing web based animation engine using WebGL and PHP.'
 						/>
 					</li>
 					<li className='my-4'>
