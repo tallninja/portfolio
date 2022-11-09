@@ -70,11 +70,11 @@ export const Hero = () => {
 						Hello &#128075;&#127998;😊 stranger... My name is Ernest and I am a
 						software devaloper/craftsman currently based in Nairobi, Kenya. I'd
 						like to say I'm a fullstack developer but my passion leans more
-						towards backend engineering. I love designing backend systems and
-						APIs and I'm currently learning system design. I live an learn to
-						code. What can I say, ever since I wrote my first computer program
-						I've been hooked. Whenever I'm not coding I love taking nature walks
-						and reading comics (manga) which is my new addiction.
+						towards backend engineering. I love designing complex backend
+						systems and APIs and I'm currently learning system design. I live
+						and love to code. What can I say, when I wrote my first "Hello
+						World!" program I got hooked. Whenever I'm not coding I love taking
+						nature walks and reading comics (manga) which is my new addiction.
 					</p>
 					<p className='font-bold text-xl'>
 						<span className='italic'>&#8220; Per Aspera Ad Astra &#8221;</span>{' '}
