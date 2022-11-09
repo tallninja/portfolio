@@ -32,7 +32,7 @@ export const Hero = () => {
 						Software Developer
 					</div>
 					<div className='text-gray-500 dark:text-gray-400'>
-						Open To Work &#128515;
+						Wikimedia Foundation &#128515;
 					</div>
 					<div className='flex pt-6 space-x-3'>
 						<a href='mailto:ernestwambua2@gmail.com'>

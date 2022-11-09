@@ -11,14 +11,35 @@ export const WorkExperience = () => {
 				<ul>
 					<li className='my-4'>
 						<Experience
+							position='Junior Software Developer'
+							company='Wikimedia Foundation'
+							from='Sep, 2022'
+							to='Present'
+							description='Mainly tasked with verifying documentation of the media wiki platform
+							and designing web based animation engine using WebGL and Web assembly.'
+						/>
+					</li>
+					<li className='my-4'>
+						<Experience
+							position='Alpha Tester & Peer Mentor'
+							company='DeepLearning.AI'
+							from='Dec, 2021'
+							to='Aug, 2022'
+							description='Went through all the course materials and ensured that they were up
+							to standards both technically and academically. I also addressed some of the students issues
+							on the platform and mentored the on the courses they were undertaking on the platform'
+						/>
+					</li>
+					<li className='my-4'>
+						<Experience
 							position='Software Engineer'
 							type='internship'
 							company='ICT Authority'
 							from='Jan, 2022'
 							to='May, 2022'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Duis at turpis sed dolor luctus egestas id at urna. Phasellus quis diam
-								in urna luctus sollicitudin. In sed nunc non risus consequat feugiat.'
+							description='Designed and implemented a school management system for one of the local
+							schools. I designed both the frontend and backend. I also wrote tests for the whole syatem
+							and managed the entire database.'
 						/>
 					</li>
 					<li className='my-4'>
@@ -28,9 +49,9 @@ export const WorkExperience = () => {
 							company='United Nations'
 							from='March, 2021'
 							to='June, 2021'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Duis at turpis sed dolor luctus egestas id at urna. Phasellus quis diam
-								in urna luctus sollicitudin. In sed nunc non risus consequat feugiat.'
+							description='Mostly undertook network maintenance tasks at the United Nations Environmental Program
+							offices. I was also tasked with ensuring that the server architecture was up to date and at per with
+							standards. I was also tasked with training of enumerators on data collection using KoBo Collect.'
 						/>
 					</li>
 				</ul>
