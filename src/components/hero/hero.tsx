@@ -37,9 +37,10 @@ export const Hero = () => {
 					<div className='flex pt-6 space-x-3'>
 						<i className='fa fa-envelope text-gray-200 text-xl dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
 						<i className='fa-brands fa-github text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
-						<i className='fa-brands fa-twitter text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
-						<i className='fa-brands fa-linkedin text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
 						<i className='fa-brands fa-stack-overflow text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
+						<i className='fa-brands fa-linkedin text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
+						<i className='fa-brands fa-twitter text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
+						<i className='fa-brands fa-whatsapp text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
 					</div>
 				</div>
 				<div className='pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2'>
