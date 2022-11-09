@@ -4,7 +4,7 @@ export const Hero = () => {
 	return (
 		<div className='divide-y'>
 			<div className='pt-6 pb-4 sm:pb-2 space-y-2 md:space-y-5'>
-				<h1 className='font-extrabold leading-9 tracking-wide text-white-900 sm:text-4xl sm:leading-9 md:text-6xl text-4xl'>
+				<h1 className='text-3xl font-extrabold leading-9 tracking-wide text-white-900 sm:text-4xl sm:leading-9 md:text-6xl'>
 					Ernest Wambua &#128119;&#127998;
 				</h1>
 			</div>
@@ -70,12 +70,11 @@ export const Hero = () => {
 						Hello &#128075;&#127998;😊 stranger... My name is Ernest and I am a
 						software devaloper/craftsman currently based in Nairobi, Kenya. I'd
 						like to say I'm a fullstack developer but my passion leans more
-						rowards backend engineering. I love designing backend systems and
+						towards backend engineering. I love designing backend systems and
 						APIs and I'm currently learning system design. I live an learn to
-						code. Ever since I wrote my first computer program I've been hooked
-						and this addiction took hold of me. Whenever I'm not coding I love
-						taking nature walks and reading books (manga) which is my new
-						addiction.
+						code. What can I say, ever since I wrote my first computer program
+						I've been hooked. Whenever I'm not coding I love taking nature walks
+						and reading comics (manga) which is my new addiction.
 					</p>
 					<p className='font-bold text-xl'>
 						<span className='italic'>&#8220; Per Aspera Ad Astra &#8221;</span>{' '}
