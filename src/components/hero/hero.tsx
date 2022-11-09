@@ -25,7 +25,7 @@ export const Hero = () => {
 							src={`${process.env.PUBLIC_URL}/img/profile.png`}
 							decoding='async'
 							data-nimg='intrinsic'
-							className='w-48 h-48 rounded-full'
+							className='w-48 h-48 rounded-full grayscale hover:grayscale-0'
 						></img>
 					</span>
 					<div className='pt-4 text-gray-500 dark:text-gray-400'>
