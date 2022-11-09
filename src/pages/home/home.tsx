@@ -3,6 +3,7 @@ import {
 	Hero,
 	Education,
 	FeaturedProjects,
+	Contact,
 } from '../../components';
 
 export const Home = () => {
@@ -15,6 +16,7 @@ export const Home = () => {
 					<Education />
 				</div>
 				<FeaturedProjects />
+				<Contact />
 			</div>
 		</>
 	);

@@ -4,3 +4,4 @@ export * from './work-experience';
 export * from './education';
 export * from './featured-projects';
 export * from './footer';
+export * from './contact';
