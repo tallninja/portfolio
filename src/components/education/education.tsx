@@ -11,13 +11,22 @@ export const Education = () => {
 				<ul>
 					<li className='my-4'>
 						<School
+							course='Software Engineering'
+							school='Holberton School'
+							from='Feb, 2022'
+							to='March, 2023'
+							description='The ALX Holberton Software Engineering programme is a 12-month(70h/week) immersive programme that engages technology enthusiasts and budding software engineers in a variety of programmes across in-demand tech disciplines to prepare them for a global career as a Full-Stack Developer.'
+						/>
+					</li>
+					<li className='my-4'>
+						<School
 							course='Telecommunication and Information Engineering'
 							school='Jomo Kenyatta University of Agriculture & Technology'
 							from='Aug, 2018'
 							to='Dec, 2023'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Duis at turpis sed dolor luctus egestas id at urna. Phasellus quis diam
-								in urna luctus sollicitudin. In sed nunc non risus consequat feugiat.'
+							description='A 5 year engineering course-work where I gained valuable skills in Electrical engineering, Computer engineering and RF engineering.
+							I also gained valuable design and analysis skills to implemnt modern communication systems. I was able to aquire an in-depth knowledge on signals & systems, antenna theory, digital communication and network design and management.
+							I was also a member of SES (Society of Engineering Students) which is acommunity of engineering students where we share ideas and help each other both academiccally and profeccionally'
 						/>
 					</li>
 				</ul>
