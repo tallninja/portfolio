@@ -35,12 +35,30 @@ export const Hero = () => {
 						Open To Work &#128515;
 					</div>
 					<div className='flex pt-6 space-x-3'>
-						<i className='fa fa-envelope text-gray-200 text-xl dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
-						<i className='fa-brands fa-github text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
-						<i className='fa-brands fa-stack-overflow text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
-						<i className='fa-brands fa-linkedin text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
-						<i className='fa-brands fa-twitter text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
-						<i className='fa-brands fa-whatsapp text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
+						<a href='mailto:ernestwambua2@gmail.com'>
+							<i className='fa fa-envelope text-gray-200 text-xl dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
+						</a>
+						<a href='https://github.com/tallninja' target='_blank'>
+							<i className='fa-brands fa-github text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
+						</a>
+						<a
+							href='https://stackoverflow.com/users/16195015/ernest-wambua'
+							target='_blank'
+						>
+							<i className='fa-brands fa-stack-overflow text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
+						</a>
+						<a
+							href='https://www.linkedin.com/in/ernest-wambua-0b2358184/'
+							target='_blank'
+						>
+							<i className='fa-brands fa-linkedin text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
+						</a>
+						<a href='https://twitter.com/ErnestWambua' target='_blank'>
+							<i className='fa-brands fa-twitter text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
+						</a>
+						<a href='https://wa.me/254719286396' target='_blank'>
+							<i className='fa-brands fa-whatsapp text-xl text-gray-200 dark:text-gray-400 hover:text-black hover:dark:text-white hover:text-2xl'></i>
+						</a>
 					</div>
 				</div>
 				<div className='pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2'>
